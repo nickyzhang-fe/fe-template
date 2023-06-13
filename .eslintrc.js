@@ -14,7 +14,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    'eslint:recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
     'plugin:vue/vue3-recommended',
     'prettier',
     'plugin:prettier/recommended',
@@ -24,7 +24,6 @@ module.exports = {
     document: false,
     navigator: false,
     window: 'readonly',
-    yw: 'readonly',
   },
   rules: {
     'no-console': 0, // 可以使用console
